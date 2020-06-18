@@ -44,7 +44,7 @@ export const AddTransaction = () => {
                 </div>
                 <div className="form-control">
                     <label htmlFor="amount">Amount </label>
-                    <input type="number" min="0" value={amount} onChange={(e) => {setAmount(e.target.value)}} placeholder="Enter amount..." />
+                    <input type="number" min="0" value={amount} onChange={(e) => {setAmount(Math.abs(e.target.value))}} placeholder="Enter amount..." />
                 </div>
                 <div className="text-center margin-10">
                     <button className="income-btn submit-btn" onClick={addIncomeClick}>Add income</button>
