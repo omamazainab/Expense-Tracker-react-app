@@ -163,3 +163,24 @@ input[type='number'] {
 .text-center{
   text-align: center;
 }
+
+.submit-btn{
+  width: 45%;
+  height: 5vh;
+}
+
+.income-btn{
+  background-color: green;
+    color: white;
+    border: none;
+}
+
+.expense-btn{
+  background-color: red;
+    color: white;
+    border: none;
+}
+
+.margin-10{
+  margin: 10px;
+}
