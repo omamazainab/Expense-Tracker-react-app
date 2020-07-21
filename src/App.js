@@ -18,7 +18,7 @@ function App() {
       <TransactionList />
       <AddTransaction />
       </div>
-      
+
     </GlobalProvider>
   );
 }

@@ -19,6 +19,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#root{
+  background-color: lightgray;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
 .container {
   margin: 30px auto;
   width: 350px;
@@ -148,4 +154,33 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+.vertial-align-bottom{
+  vertical-align: bottom;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.submit-btn{
+  width: 45%;
+  height: 5vh;
+}
+
+.income-btn{
+  background-color: green;
+    color: white;
+    border: none;
+}
+
+.expense-btn{
+  background-color: red;
+    color: white;
+    border: none;
+}
+
+.margin-10{
+  margin: 10px;
 }
